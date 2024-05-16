@@ -1,87 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEET Preparation</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.5;
+            color: #ffffff;
             margin: 0;
             padding: 0;
+            animation: changeBackground 8s infinite linear;
         }
+
+        @keyframes changeBackground {
+            0% {
+                background-color: #111111;
+                /* initial background */
+            }
+
+            10% {
+                background-color: #333333;
+                /* step 1 - dark gray */
+            }
+
+            20% {
+                background-color: #555555;
+                /* step 2 - medium gray */
+            }
+
+            30% {
+                background-color: #777777;
+                /* step 3 - medium gray */
+            }
+
+            40% {
+                background-color: #999999;
+                /* step 4 - medium gray */
+            }
+
+            50% {
+                background-color: #a8a3a3;
+                /* step 5 - medium gray */
+            }
+
+            60% {
+                background-color: #999999;
+                /* step 6 - medium gray */
+            }
+
+            70% {
+                background-color: #777777;
+                /* step 7 - medium gray */
+            }
+
+            80% {
+                background-color: #555555;
+                /* step 8 - medium gray */
+            }
+
+            90% {
+                background-color: #333333;
+                /* step 9 - dark gray */
+            }
+
+            100% {
+                background-color: #111111;
+                /* final background */
+            }
+        }
+
+
+
 
         header {
+            background-color: rgba(255, 255, 255, 0.1);
+            /* transparent header */
+            padding: 20px;
             text-align: center;
-            padding: 20px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            /* transparent border */
         }
 
-        h1 {
-            font-size: 24px;
-            margin: 0;
-        }
-
+        h1,
         h2 {
-            font-size: 18px;
-            margin: 10px 0;
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #ffffff;
+            /* white text color */
         }
 
         .content {
-            display: flex;
-            justify-content: center;
-            margin-top: 40px;
+            padding: 20px;
+            min-height: calc(100vh - 180px);
+            /* set minimum height for content area */
         }
 
         .grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
         }
 
         .block {
-            width: 40%;
-            margin-bottom: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
             padding: 20px;
-            background-color: #ffffff;
-            /* White background */
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            animation: fadeIn 0.5s ease-out;
+
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
 
         .block h2 {
-            font-size: 20px;
+            margin-top: 0;
+            color: #ffffff;
         }
 
-        .block p {
-            font-size: 16px;
-            margin-bottom: 10px;
-        }
-
-        .block a {
-            color: #1E90FF;
-            /* Link color */
+        a {
+            color: #ffffff;
             text-decoration: none;
         }
 
-        .block a:hover {
+        a:hover {
             text-decoration: underline;
         }
 
         footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* semi-transparent black */
+            color: #ffffff;
+            /* white text color */
             text-align: center;
-            background-color: #f5f5f5;
-            /* Light gray background */
-            color: #888888;
-            /* Gray text */
-            padding: 20px 0;
-            margin-top: 40px;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
     <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <h1>NEET Preparation</h1>
@@ -94,23 +164,17 @@
                 <p>Visit progress page</p> <a href="./studyplan/index.html">Go to study plan</a>
             </div>
             <div class="block">
-                <h2>Biology</h2>
-                <p>Prepare for Biology section</p> <a href="./subjects/biology/index.html">Go to Biology Page</a>
-            </div>
-            <div class="block">
-                <h2>Physics</h2>
-                <p>Prepare for Physics section</p> <a href="./subjects/physics/index.html">Go to Physics Page</a>
-            </div>
-            <div class="block">
-                <h2>Chemistry</h2>
-                <p>Prepare for Chemistry section</p> <a href="./subjects/chemistry/index.html">Go to Chemistry Page</a>
-            </div>
-            <div class="block">
                 <h2>PYQs</h2>
                 <p>Previous Year Questions</p> <a href="./neet-pyqs/index.html">Go to PYQs Page</a>
             </div>
+            <div class="block">
+                <h2>Notes</h2>
+                <p>Chapter summery notes</p> <a href="./notes/index.html">Go to Notes page</a>
+            </div>
+
         </div>
     </div>
     <footer>&copy; 2024-present Developer - Pratik Tiwari</footer>
 </body>
+
 </html>

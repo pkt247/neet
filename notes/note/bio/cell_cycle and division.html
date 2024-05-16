@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Cell-cycle and Division</title>
+  <style>
+    * {
+      margin: 0.5rem;
+      padding: 0;
+    }
+
+    .note {
+      color: rgb(36, 34, 39);
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 10rem;
+      padding: 5rem;
+      border: 2px solid #4CAF50;
+      background-color: #f0f8ff;
+      color: (108 102 116);
+    }
+
+    .txt {
+      text-align: center;
+      color: #000;
+      text-decoration: underline;
+    }
+
+    details {
+      margin-bottom: 10px;
+
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: rgb(4, 109, 100);
+    }
+
+    h2 {
+      color: rgb(59, 59, 59);
+    }
+
+    h3 {
+      color: #1f0d49;
+    }
+
+    summary {
+      display: flex;
+      align-items: center;
+      /* Center vertically */
+      cursor: pointer;
+      outline: none;
+    }
+
+    summary::before {
+      content: '\25BA';
+      margin-right: 5px;
+      /* Add spacing between the arrow and the text */
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="note">
+    <h1 class="txt">Cell cycle and Division</h1>
+    <!-- interphase -->
+    <details>
+      <summary>
+        <h1>1. Interphase </h1>
+      </summary>
+      <details>
+        <summary>
+          <h3>&nbsp;&nbsp; G1 Phase (Gap 1) </h3>
+        </summary>
+        <h4>&nbsp; Early G1 </h4>
+        <p>&nbsp;&nbsp;&nbsp;Cells exit the previous cell cycle and enter a quiescent state.</p>
+        <h4>&nbsp; Mid G1 </h4>
+        <p>&nbsp;&nbsp;&nbsp;Cells increase in size and carry out normal metabolic activities.</p>
+        <h4>&nbsp; Late G1 </h4>
+        <p>&nbsp;&nbsp;&nbsp;Cells prepare for DNA replication by synthesizing proteins and organelles.</p>
+      </details>
+      <details>
+        <summary>
+          <h3>&nbsp;&nbsp; S Phase (Synthesis) </h3>
+        </summary>
+        <h4>&nbsp; Replication Initiation </h4>
+        <p>&nbsp;&nbsp;&nbsp;DNA replication begins at multiple origins of replication along the chromosomes.</p>
+        <h4>&nbsp; Replication Elongation </h4>
+        <p>&nbsp;&nbsp;&nbsp;DNA polymerase synthesizes new DNA strands in a semiconservative manner.</p>
+        <h4>&nbsp; Replication Termination </h4>
+        <p>&nbsp;&nbsp;&nbsp;DNA replication is completed, resulting in the formation of sister chromatids.</p>
+      </details>
+      <details>
+        <summary>
+          <h3>&nbsp;&nbsp; G2 Phase (Gap 2) </h3>
+        </summary>
+        <h4>&nbsp; Preparation for Mitosis </h4>
+        <p>&nbsp;&nbsp;&nbsp;Cells continue to grow and synthesize proteins necessary for mitosis.</p>
+        <h4>&nbsp; Checkpoint Control </h4>
+        <p>&nbsp;&nbsp;&nbsp;Checkpoints monitor DNA integrity and ensure proper completion of DNA replication before
+          entering mitosis.
+        </p>
+      </details>
+    </details>
+    <!-- mphase -->
+    <details>
+      <summary>
+        <h1>2. M Phase </h1>
+      </summary>
+      <!-- Metosis -->
+      <details>
+        <summary>
+          <h2> Mitosis </h2>
+        </summary>
+        <details>
+          <summary>
+            <h3>&nbsp;&nbsp; Prophase </h3>
+          </summary>
+          <h3>&nbsp;&nbsp;Early Prophase </h3>
+          <p>&nbsp;&nbsp;&nbsp;Chromosomes condense, becoming visible under a light microscope.</p>
+          <h4>&nbsp; Centrioles </h4>
+          <p>&nbsp;&nbsp;&nbsp;Centrioles begin to migrate to opposite poles of the cell, forming the spindle apparatus.
+          </p>
+          <h4>&nbsp; Cyclin-CDK complexes </h4>
+          <p>&nbsp;&nbsp;&nbsp;Cyclin-CDK complexes phosphorylate target proteins, initiating chromosome condensation
+            and spindle
+            formation.
+          </p>
+          <h4>&nbsp; Checkpoints </h4>
+          <p>&nbsp;&nbsp;&nbsp;Checkpoints monitor the integrity of DNA and ensure proper condensation and alignment of
+            chromosomes.</p>
+          <h3>&nbsp;&nbsp; Late Prophase </h3>
+          <p>&nbsp;&nbsp;&nbsp;The nuclear envelope ,ER ,Golgi body, breaks down, and the mitotic spindle forms.</p>
+          <h4>&nbsp;Kinetochore </h4>
+          <p>&nbsp;&nbsp;&nbsp;Kinetochore proteins assemble on the centromeres of chromosomes, facilitating their
+            attachment to spindle
+            fibers.
+          </p>
+          <h4>&nbsp; Chromosome Alignment </h4>
+          <p>&nbsp;&nbsp;&nbsp;Chromosomes align along the metaphase plate, ready for proper segregation during
+            metaphase.</p>
+        </details>
+        <details>
+          <summary>
+            <h3>&nbsp;&nbsp; Prometaphase </h3>
+          </summary>
+          <p>&nbsp;&nbsp;&nbsp;Chromosomes attach to spindle fibers at their kinetochores and begin to move toward the
+            metaphase
+            plate.</p>
+        </details>
+        <details>
+          <summary>
+            <h3>&nbsp;&nbsp; Metaphase </h3>
+          </summary>
+          <p>&nbsp;&nbsp;&nbsp;Chromosomes align along the metaphase plate, establishing a bipolar spindle.</p>
+        </details>
+        <details>
+
+          <summary>
+            <h3>&nbsp;&nbsp; Anaphase </h3>
+          </summary>
+          <h4>&nbsp; Anaphase A </h4>
+          <p>&nbsp;&nbsp;&nbsp;Sister chromatids separate and move toward opposite poles of the cell due to spindle
+            fiber shortening.
+          </p>
+          <h4>&nbsp; Anaphase B </h4>
+          <p>&nbsp;&nbsp;&nbsp;The spindle poles move apart, elongating the cell.</p>
+          <br>
+          <strong>Based on shaped formed due to shapes of centromere : </strong>
+          <br>
+          <p>&nbsp;&nbsp;&nbsp;
+            <strong>1. Metacentric :</strong> inverted V shaped
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;
+            <strong>2. Submetacentric:</strong> inverted L shaped
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;
+            <strong>3. Acrocentric:</strong>inverted J shaped
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;
+            <strong>4. Telocentric:</strong>Inverted I shaped
+          </p>
+        </details>
+        <details>
+          <summary>
+            <h3>&nbsp;&nbsp; Telophase </h3>
+          </summary>
+          <h4>&nbsp; Early Telophase </h4>
+          <p>&nbsp;&nbsp;&nbsp;Chromosomes decondense, and nuclear envelopes form around each set of chromosomes.</p>
+          <h4>&nbsp; Late Telophase </h4>
+          <p>&nbsp;&nbsp;&nbsp;The mitotic spindle disassembles, and cytokinesis initiates.</p>
+        </details>
+      </details>
+      <!-- In case of Meiosis -->
+      <details>
+        <summary>
+          <h2>In case of Meiosis</h2>
+        </summary>
+        <details>
+          <summary>
+            <h3>&nbsp;&nbsp;Meiosis I: </h3>
+          </summary>
+          <h3>&nbsp; 1. Prophase I:</h3>
+          <strong>&nbsp;&nbsp;Leptotene:</strong> Chromosomes condense and become visible under the microscope.
+          <br>
+          <strong>&nbsp;&nbsp;Zygotene:</strong> Homologous chromosomes pair up to form bivalents or tetrads. This
+          pairing
+          process is facilitated by the synaptonemal complex.
+          <br>
+          <strong>&nbsp;&nbsp;Pachytene:</strong> Crossing over occurs between non sister chromatids of homologous
+          chromosomes. This results in the exchange of genetic material, increasing genetic diversity.
+          <br>
+          <strong>&nbsp;&nbsp;Diplotene:</strong> Synaptonemal complex dissolves, but homologous chromosomes remain
+          attached at
+          points called chiasmata, where crossing over occurred.
+          <br>
+          <strong>&nbsp;&nbsp;Diakinesis:</strong> Chromosomes further condense, and the nuclear envelope breaks down.
+          Spindle fibers start to form, and chromosomes begin to move towards the metaphase plate.
+          <br>
+
+          <h3>&nbsp;&nbsp;2.Metaphase I:</h3>
+          <h4>&nbsp;Orientation:</h4> Bivalents align randomly along the metaphase plate, with each pair of
+          homologous chromosomes attached to spindle fibers from opposite poles.
+          <br>
+          <h4>&nbsp;Independent Assortment:</h4> The orientation of each bivalent is independent of other
+          bivalents, contributing to genetic variation.
+          <br>
+          <h3>&nbsp;&nbsp;3. Anaphase I:</h3>
+          <br>
+          <h4>&nbsp;Separation of Homologous Chromosomes:</h4>
+          <p>
+            Spindle fibers contract, pulling homologous
+            chromosomes of each bivalent towards opposite poles of the cell. Sister chromatids remain attached at the
+            centromere.
+          </p>
+          <br>
+          <h3>&nbsp;&nbsp;4. Telophase I:</h3>
+          <br>
+          <h4>&nbsp;Cytokinesis:</h4>
+          <p>
+            The cytoplasm divides, resulting in two haploid daughter cells, each containing one set of chromosomes.
+          </p>
+          <br>
+          <h4>&nbsp;Nuclear Envelope Formation:</h4> A new nuclear envelope forms around each set of chromosomes.
+          <br>
+        </details>
+        <details>
+          <summary>
+            <h4>&nbsp;Interkinesis:</h4>
+          </summary>
+          In some organisms, a short interphase like stage may occur, although DNA replication does not occur during
+          this stage. Stage between Meiosis I and meiosis II
+        </details>
+
+        <details>
+          <summary>
+            <h3>&nbsp;&nbsp; Meiosis II: </h3>
+          </summary>
+          <br>
+          <h3>&nbsp;&nbsp; 1.Prophase II:</h3>
+          <br>
+          <h4>&nbsp;Chromosomes Condense:</h4> Chromosomes condense again after briefly decondensing in
+          interkinesis.
+          <br>
+          <h4>&nbsp;Nuclear Envelope Breakdown:</h4> The nuclear envelope dissolves, and spindle fibers begin to
+          form.
+
+          <br>
+          <h3>&nbsp;&nbsp;2. Metaphase II:</h3>
+          <br>
+          <h4>&nbsp;Chromosome Alignment:</h4> Chromosomes align along the metaphase plate of each haploid daughter
+          cell.
+
+          <br>
+          <h3>&nbsp;&nbsp;3. Anaphase II:</h3>
+          <br>
+          <h4>&nbsp;Separation of Sister Chromatids:</h4> Centromeres divide, and sister chromatids are pulled towards
+          opposite poles of the cells by spindle fibers. <br>
+          <h3>&nbsp;&nbsp;4. Telophase II:</h3> <br>
+          <h4>&nbsp;Formation of Four Haploid Daughter Cells:</h4> Cytokinesis occurs again, resulting in the formation
+          of four haploid daughter cells, each containing a single set of chromosomes.
+          <br>
+          <h4>&nbsp;Nuclear Envelope Formation:</h4> A new nuclear envelope forms around the chromosomes in each
+          daughter cell.
+        </details>
+      </details>
+    </details>
+
+    <!-- cytokinesis -->
+    <details>
+      <summary>
+        <h3>&nbsp;&nbsp; Cytokinesis </h3>
+      </summary>
+      Cytokinesis begins in anaphase and ends in telophase
+      <h4>&nbsp; Contractile Ring Formation </h4>
+      <p>&nbsp;&nbsp;&nbsp;Actin and myosin filaments assemble at the equatorial plane.</p>
+      <h4>&nbsp; Cleavage Furrow Ingrowth </h4>
+      <p>&nbsp;&nbsp;&nbsp;The contractile ring contracts, pinching the cell membrane inward.</p>
+      <h4>&nbsp; Cell Separation </h4>
+      <p>&nbsp;&nbsp;&nbsp;The cytoplasm divides, resulting in two daughter cells, each with its nucleus.</p>
+    </details>
+    <!-- Importent Terms -->
+    <details>
+      <summary>
+        <h1>Additional Terms </h1>
+      </summary>
+      <h3>&nbsp;&nbsp; Cyclins </h3>
+      <p>&nbsp;&nbsp;&nbsp;Proteins that regulate the progression of the cell cycle by activating cyclin-dependent
+        kinases (CDKs).
+      </p>
+      <h3>&nbsp;&nbsp; Cyclin-dependent kinases (CDKs) </h3>
+      <p>&nbsp;&nbsp;&nbsp;Enzymes that regulate the cell cycle by phosphorylating target proteins.</p>
+      <h3>&nbsp;&nbsp; Cyclin-CDK complexes </h3>
+      <p>&nbsp;&nbsp;&nbsp;Active complexes formed by the binding of cyclins to CDKs, which phosphorylate target
+        proteins to drive
+        cell cycle
+        progression.</p>
+      <h3>&nbsp;&nbsp; Checkpoints </h3>
+      <p>&nbsp;&nbsp;&nbsp;Control mechanisms that monitor the integrity of DNA and other cellular components at key
+        stages of the
+        cell cycle,
+        ensuring proper progression or halting the cycle if abnormalities are detected.</p>
+      <h3>&nbsp;&nbsp; Apoptosis </h3>
+      <p>&nbsp;&nbsp;&nbsp;Programmed cell death, which plays a crucial role in removing damaged or unwanted cells from
+        the
+        organism.</p>
+      <h3>&nbsp;&nbsp; Centrioles </h3>
+      <p>&nbsp;&nbsp;&nbsp;Microtubule-organizing centers that play a role in spindle formation during cell division.
+      </p>
+    </details>
+
+  </div>
+</body>
+
+</html>
