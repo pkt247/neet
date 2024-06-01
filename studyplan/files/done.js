@@ -8,16 +8,15 @@ const studyPlan = [
           //"Physical World",
           "The Living World",
           "Units and Measurement",
-          "Biological Classification",
           "Some Basic Concepts of Chemistry",
         ]
       },
       {
         week: "Week 2",
         topics: [
+          "Biological Classification",
           "Plant Kingdom",
           "Vectors",
-          "Animal Kingdom",
         ]
       },
       {
@@ -27,16 +26,15 @@ const studyPlan = [
           "Motion in Straight Line",
           "Motion in Plane",
           "Structure of Atom",
-          "Cell :The unit of life",
-
+          
         ]
       },
       {
         week: "Week 4",
         topics: [
-          "Laws of Motion",
+          "Cell :The unit of life",
           "Cell Cycle and Cell Division",
-          "Work, Energy, and Power",
+          "Animal Kingdom",
           
         ]
       }
@@ -48,6 +46,8 @@ const studyPlan = [
       {
         week: "Week 5-6",
         topics: [
+          "Laws of Motion",
+          "Work, Energy, and Power",
           "Motion of System of Particles and Rigid Body",
           "Chemical Bonding and Molecular Structure",
           "Classification of Elements and Periodicity in Properties",
@@ -183,32 +183,20 @@ const studyPlan = [
     phase: "Phase 4: Revision and Mock Tests (Months 11-12)",
     weeks: [
       {
-        week: "Week 38-42",
+        week: "Week 38-42 (5 weeks)",
         topics: [
           "Revise all subjects systematically, focusing on weak areas and important topics.",
           "Solve PYQs to assess preparation level and improve time management skills."
         ]
-      }
-    ]
-  },
-
-  {
-    phase: "Phase 5: Last 3 weeks month 12)",
-    weeks: [
-      {
-        week: "Week 43",
-        topics: [
-          "Do whatever you think is nessesary",
-        ]
       },
       {
-        week: "Week 44-45",
+        week: "Week 43-45 (3 weeks)",
         topics: [
           "Do lite revision again of all topics"
         ]
       }
     ]
-  }
+  },
 ];
 
 
