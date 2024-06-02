@@ -6,12 +6,12 @@ const w1 = [
   
   const w2 = [
     "Biological Classification",
-    "Plant Kingdom",
+    "Motion in Straight Line",
     "Vectors"
   ];
   
   const w3 = [
-    "Motion in Straight Line",
+    "Plant Kingdom",
     "Motion in Plane",
     "Structure of Atom"
   ];
@@ -24,47 +24,53 @@ const w1 = [
   
   // Phase 2 Weeks
   const w5_6 = [
+    "Sexual Reproduction in Flowering Plants",
     "Laws of Motion",
     "Work, Energy, and Power",
     "Motion of System of Particles and Rigid Body",
     "Chemical Bonding and Molecular Structure",
     "Classification of Elements and Periodicity in Properties",
-    "Biomolecule",
     "Thermodynamics"
   ];
   
   const w7_8 = [
-    "Electrostatics",
+    //  "Electrostatics :
+    "Electric Charges and Fields",
+    "Electrostatic Potential and Capacitance",
     "Current Electricity",
     "Redox Reactions",
     "Equilibrium",
-    "Oscillations and Waves"
+    "Oscillations",
   ];
   
   const w9_10 = [
+    "Waves",
     "Amines",
     "Excretory Products and their Elimination",
-    "Properties of Bulk Matter",
-    "Magnetic Effects of Current and Magnetism",
-    "Electromagnetic Induction and Alternating Currents"
+    // Magnetic Effects of Current and Magnetism
+    "Moving charges and Magnetism",
+    "Magnetism and Matter",
+    "Electromagnetic Induction",
   ];
   
   const w11_12 = [
+    "Alternating Currents",
     "p-block Elements",
     "The d-and f-Block Elements",
+    "Mechanical Properties of Solids",
     "Mechanical Properties of Fluids",
-    "Thermal Properties of Matter",
-    "Kinetic Theory of Gases"
+    "Thermal Properties of Matter"
   ];
   
   // Phase 3 Weeks
   const w13_17 = [
+    "Kinetic Theory of Gases",
     "Locomotion and Movement",
     "Neural Control and Coordination",
     "Structural Organisation in Animals",
     "Organic Chemistry: Some Basic Principles and Techniques",
     "Electromagnetic Waves",
-    "Sexual Reproduction in Flowering Plants",
+    "Biomolecule",
     "Human Reproduction"
   ];
   
