@@ -25,12 +25,12 @@ const w1 = [
   // Phase 2 Weeks
   const w5_6 = [
     "Sexual Reproduction in Flowering Plants",
+    "Classification of Elements and Periodicity in Properties",
     "Laws of Motion",
+    "Chemical Bonding and Molecular Structure",
     "Work, Energy, and Power",
     "Motion of System of Particles and Rigid Body",
-    "Chemical Bonding and Molecular Structure",
-    "Classification of Elements and Periodicity in Properties",
-    "Thermodynamics"
+    "Thermodynamics (chemistry)"
   ];
   
   const w7_8 = [
@@ -41,6 +41,7 @@ const w1 = [
     "Redox Reactions",
     "Equilibrium",
     "Oscillations",
+    "Thermodynamics (physics)"
   ];
   
   const w9_10 = [
