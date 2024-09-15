@@ -65,61 +65,61 @@ const w1 = [
   // Phase 3 Weeks
   const w13_17 = [
     "Classification of Elements and Periodicity in Properties",
-    "Laws of Motion ",
-    "Work, Energy, and Power ",
     "Chemical Bonding and Molecular Structure",
-    "System of Particle and Rotational Motion ",
-    "Electric Charges and Fields",
-    "Electrostatic Potential and Capacitance",
     "Thermodynamics (chemistry)",
+    "Redox Reactions",
+    "Equilibrium",
+    "Amines",
+    "p-block Elements",
+    "The d-and f-Block Elements",
   ];
   
   const w18_22 = [
-    "Current Electricity",
-    "Redox Reactions",
-    "Equilibrium",
-    "Oscillations",
-    "Thermodynamics (physics)",
-    "Amines",
-    "Moving charges and Magnetism",
-    "Magnetism and Matter",
-    "Electromagnetic Induction",
-    
-  ];
-  
-  const w23_27 = [
-    "Alternating Currents",
-    "p-block Elements",
-    "The d-and f-Block Elements",
     "Mechanical Properties of Solids",
     "Mechanical Properties of Fluids",
     "Thermal Properties of Matter",
     "Kinetic Theory of Gases",
     "Organic Chemistry: Some Basic Principles and Techniques",
+    "Biomolecule (chemistry)",
+    "Hydrocarbons",
+    "Haloalkanes and Haloarenes",
+    
+  ];
+  
+  const w23_27 = [
+    "Alcohols, Phenols and Ethers",
+    "Aldehydes, Ketones and Carboxylic Acids",
+    "Chemical Kinetics",
+    "Atoms ",
+    "Nuclei",
+    "Semiconductor Electronics",
+    "Solutions",
+    "Dual Nature of Radiation and Matter",
   ];
   
   const w28_32 = [
     
-    "Electromagnetic Waves",
-    "Biomolecule (chemistry)",
-    "Hydrocarbons",
-    "Haloalkanes and Haloarenes",
-    "Alcohols, Phenols and Ethers",
-    "Aldehydes, Ketones and Carboxylic Acids",
-    "Chemical Kinetics",
-    "Gravitation",
+    "Laws of Motion ",
+    "Work, Energy, and Power ",
+    "System of Particle and Rotational Motion ",
+    "Electric Charges and Fields",
+    "Electrostatic Potential and Capacitance",
+    "Current Electricity",
+    "Oscillations",
+    "Thermodynamics (physics)",
     
   ];
   
   const w33_37 = [
+    "Moving charges and Magnetism",
+    "Magnetism and Matter",
+    "Electromagnetic Induction",
+    "Alternating Currents",
+    "Electromagnetic Waves",
+    "Gravitation",
     "Waves",
     "Ray Optics and Optical Instruments",
     "Wave Optics",
-    "Dual Nature of Radiation and Matter",
-    "Atoms ",
-    "Nuclei",
-    "Semiconductor Electronics",
-    "Solutions"
   ];
   
   // Phase 4 Weeks
