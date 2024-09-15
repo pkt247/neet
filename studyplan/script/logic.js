@@ -5,11 +5,11 @@ const studyPlan = [
     weeks: p1.map((week, index) => ({ week: `Week ${index + 1}`, topics: week }))
   },
   {
-    phase: "Phase 2: Building Foundations (Months 2-3)",
+    phase: "Phase 2: Biology completion (Months 2-3)",
     weeks: p2.map((week, index) => ({ week: `Week ${5 + index * 2}-${6 + index * 2}`, topics: week }))
   },
   {
-    phase: "Phase 3: Conceptual Understanding and Practice (Months 4-10)",
+    phase: "Phase 3: Physics Practice and Chemistry (Months 4-10)",
     weeks: [
       { week: "Week 13-17", topics: w13_17 },
       { week: "Week 18-22", topics: w18_22 },

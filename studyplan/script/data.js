@@ -25,93 +25,100 @@ const w1 = [
   // Phase 2 Weeks
   const w5_6 = [
     "Sexual Reproduction in Flowering Plants",
-    "Classification of Elements and Periodicity in Properties",
-    "Laws of Motion",
-    "Chemical Bonding and Molecular Structure",
-    "Work, Energy, and Power",
-    "Motion of System of Particles and Rigid Body",
-    "Thermodynamics (chemistry)"
+    "Microbes in Human Welfare",
+    "Ecosystem",
+    "Human Reproduction",
+    "Reproductive Health",
+    "Photosynthesis in Higher Plants",
   ];
   
   const w7_8 = [
-    //  "Electrostatics :
+    "Respiration in Plants",
+    "Plant Growth and Development",
+    "Morphology of Flowering Plants",
+    "Anatomy of Flowering Plants",
+    "Molecular Basis of Inheritance",
+    "Biotechnology and its Applications",
+    "Biotechnology- Principles and Processes ",
+  ];
+  
+  const w9_10 = [
+    "Evolution",
+    "Human Health and Diseases",
+    "Principles of Inheritance and Variation",
+    "Biodiversity and its Conservation",
+    "Organisms and Populations",
+    "Biomolecule (Biology)",
+    
+  ];
+  
+  const w11_12 = [
+    "Structural Organisation in Animals",
+    "Locomotion and Movement",
+    "Neural Control and Coordination",
+    "Chemical Coordination & Integration",
+    "Breathing and Exchange of Gases",
+    "Body Fluids and Circulation",
+  ];
+  
+  // Phase 3 Weeks
+  const w13_17 = [
+    "Excretory Products and their Elimination",
+    "Classification of Elements and Periodicity in Properties",
+    "Laws of Motion ",
+    "Work, Energy, and Power ",
+    "Chemical Bonding and Molecular Structure",
+    "System of Particle and Rotational Motion ",
     "Electric Charges and Fields",
     "Electrostatic Potential and Capacitance",
+    "Thermodynamics (chemistry)",
+  ];
+  
+  const w18_22 = [
     "Current Electricity",
     "Redox Reactions",
     "Equilibrium",
     "Oscillations",
-    "Thermodynamics (physics)"
-  ];
-  
-  const w9_10 = [
-    "Waves",
+    "Thermodynamics (physics)",
     "Amines",
-    "Excretory Products and their Elimination",
-    // Magnetic Effects of Current and Magnetism
     "Moving charges and Magnetism",
     "Magnetism and Matter",
     "Electromagnetic Induction",
+    
   ];
   
-  const w11_12 = [
+  const w23_27 = [
     "Alternating Currents",
     "p-block Elements",
     "The d-and f-Block Elements",
     "Mechanical Properties of Solids",
     "Mechanical Properties of Fluids",
-    "Thermal Properties of Matter"
-  ];
-  
-  // Phase 3 Weeks
-  const w13_17 = [
+    "Thermal Properties of Matter",
     "Kinetic Theory of Gases",
-    "Locomotion and Movement",
-    "Neural Control and Coordination",
-    "Structural Organisation in Animals",
     "Organic Chemistry: Some Basic Principles and Techniques",
-    "Electromagnetic Waves",
-    "Biomolecule",
-    "Human Reproduction"
-  ];
-  
-  const w18_22 = [
-    "Morphology of Flowering Plants",
-    "Anatomy of Flowering Plants",
-    "Respiration in Plants",
-    "Photosynthesis in Higher Plants",
-    "Plant Growth and Development",
-    "Hydrocarbons",
-    "Haloalkanes and Haloarenes"
-  ];
-  
-  const w23_27 = [
-    "Alcohols, Phenols and Ethers",
-    "Aldehydes, Ketones and Carboxylic Acids",
-    "Chemical Coordination & Integration",
-    "Breathing and Exchange of Gases",
-    "Body Fluids and Circulation",
-    "Chemical Kinetics",
-    "Biotechnology"
   ];
   
   const w28_32 = [
-    "Principles of Inheritance and Variation",
-    "Molecular Basis of Inheritance",
-    "Evolution",
+    
+    "Electromagnetic Waves",
+    "Biomolecule (chemistry)",
+    "Hydrocarbons",
+    "Haloalkanes and Haloarenes",
+    "Alcohols, Phenols and Ethers",
+    "Aldehydes, Ketones and Carboxylic Acids",
+    "Chemical Kinetics",
     "Gravitation",
-    "Optics",
-    "Human Health and Diseases",
-    "Microbes in Human Welfare"
+    
   ];
   
   const w33_37 = [
-    "Ecosystem",
-    "Biodiversity and its Conservation",
-    "Organisms and Populations",
+    "Waves",
+    "Ray Optics and Optical Instruments",
+    "Wave Optics",
     "Dual Nature of Radiation and Matter",
-    "Atoms and Nuclei",
-    "Electronic Devices",
+    "Atoms ",
+    "Nuclei",
+    "Semiconductor Electronics",
     "Solutions"
   ];
   
