@@ -35,19 +35,19 @@ const w1 = [
   const w7_8 = [
     "Respiration in Plants",
     "Plant Growth and Development",
-    "Morphology of Flowering Plants",
-    "Anatomy of Flowering Plants",
     "Molecular Basis of Inheritance",
     "Biotechnology and its Applications",
     "Biotechnology- Principles and Processes ",
+    "Morphology of Flowering Plants",
+    "Anatomy of Flowering Plants",
   ];
   
   const w9_10 = [
-    "Evolution",
-    "Human Health and Diseases",
     "Principles of Inheritance and Variation",
     "Biodiversity and its Conservation",
     "Organisms and Populations",
+    "Evolution",
+    "Human Health and Diseases",
     "Biomolecule (Biology)",
     
   ];
@@ -59,11 +59,11 @@ const w1 = [
     "Chemical Coordination & Integration",
     "Breathing and Exchange of Gases",
     "Body Fluids and Circulation",
+    "Excretory Products and their Elimination",
   ];
   
   // Phase 3 Weeks
   const w13_17 = [
-    "Excretory Products and their Elimination",
     "Classification of Elements and Periodicity in Properties",
     "Laws of Motion ",
     "Work, Energy, and Power ",
