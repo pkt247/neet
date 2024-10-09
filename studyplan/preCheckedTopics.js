@@ -9,9 +9,9 @@ const preCheckedTopics = [
 //  PHASE Number :  2
 
   ...w5_6.slice(),
-  ...w7_8.slice(0, 5),
-  ...w9_10.slice(0, 3),
-  // ...w11_12.slice()
+  ...w7_8.slice(0, 6),
+  ...w9_10.slice(0,6),
+  ...w11_12.slice(0,1)
 
 //  PHASE Number :  3
   // ...w13_17.slice(), 

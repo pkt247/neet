@@ -10,13 +10,35 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-color: rgba(255, 255, 255, 0.1);
+            /* background:
+                linear-gradient(-90deg, rgba(0, 0, 0, .05) 1px, transparent 1px),
+                linear-gradient(rgba(0, 0, 0, .05) 1px, transparent 1px),
+                linear-gradient(-90deg, rgba(0, 0, 0, .04) 1px, transparent 1px),
+                linear-gradient(rgba(0, 0, 0, .04) 1px, transparent 1px),
+                linear-gradient(transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+                linear-gradient(-90deg, #aaa 1px, transparent 1px),
+                linear-gradient(-90deg, transparent 3px, #f2f2f2 3px, #f2f2f2 78px, transparent 78px),
+                linear-gradient(#aaa 1px, transparent 1px),
+                #f2f2f2; */
+            /* background-size:
+                4px 4px,
+                4px 4px,
+                80px 80px,
+                80px 80px,
+                80px 80px,
+                80px 80px,
+                80px 80px,
+                80px 80px;
+            padding: 20px; */
+            
         }
-
+        
         .container {
+            background-color: rgba(255, 255, 255, 0.1);
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            z-index: 1;
         }
 
         @keyframes fadeIn {
@@ -52,6 +74,16 @@
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
+        }
+
+        #home{
+            background-color: #1f1a1a;
+            color: black;
+        }
+
+        #home:hover{
+            background-color: #242323;
+            color: black;
         }
 
         .navbar a:hover {
@@ -104,7 +136,7 @@
     <div class="container">
         <h1 class="heading">NEET Previous Year Questions (PYQs)</h1>
         <div class="navbar">
-            <a href="../index.html">Home</a> <a href="./index.html">PYQs</a>
+            <a href="../index.html" id='home'>Home</a> <a href="./index.html">PYQs</a>
             <a href="../studyplan/index.html">study plan</a>
             <li class="ss">
                 <a href="#11">11th Data</a>
@@ -116,7 +148,7 @@
         <div class="pyq-grid" id="pyqsGrid"> </div>
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', () => { const pyqsGrid = document.getElementById('pyqsGrid'); const years = ['2014', '2016', '2017', '2018', '2019', '2021', '2022', '2023']; years.forEach(year => { const pyqDiv = document.createElement('div'); pyqDiv.classList.add('pyq-item'); const pyqLink = document.createElement('a'); pyqLink.classList.add('pyq-link'); pyqLink.href = `./pdf/${year}.pdf`; pyqLink.textContent = `NEET - ${year}`; pyqDiv.appendChild(pyqLink); pyqsGrid.appendChild(pyqDiv); }); });
+        document.addEventListener('DOMContentLoaded', () => { const pyqsGrid = document.getElementById('pyqsGrid'); const years = ['2020', '2021', '2022', '2023','2024']; years.forEach(year => { const pyqDiv = document.createElement('div'); pyqDiv.classList.add('pyq-item'); const pyqLink = document.createElement('a'); pyqLink.classList.add('pyq-link'); pyqLink.href = `./pdf/${year}.pdf`; pyqLink.textContent = `NEET - ${year}`; pyqDiv.appendChild(pyqLink); pyqsGrid.appendChild(pyqDiv); }); });
 
     </script>
 </body>

@@ -47,9 +47,10 @@ const w9_10 = [
   "Biodiversity and its Conservation",
   "Organisms and Populations",
   "Human Health and Diseases",
-  "Biomolecule (Biology)",
-  "Evolution",
-
+  "Breathing and Exchange of Gases",
+  "Body Fluids and Circulation",
+  "Excretory Products and their Elimination",
+  
 ];
 
 const w11_12 = [
@@ -57,9 +58,8 @@ const w11_12 = [
   "Locomotion and Movement",
   "Neural Control and Coordination",
   "Chemical Coordination & Integration",
-  "Breathing and Exchange of Gases",
-  "Body Fluids and Circulation",
-  "Excretory Products and their Elimination",
+  "Biomolecule (Biology)",
+  "Evolution",
 ];
 
 // Phase 3 Weeks
