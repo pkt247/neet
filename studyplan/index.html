@@ -7,6 +7,9 @@
     <title>Study Planner</title>
     <link rel="stylesheet" href="./files/styles.css">
     <style>
+        body::-webkit-scrollbar {
+            display: none;
+        }
         a {
             font-size: 20px;
             font-weight: bold;
@@ -17,6 +20,10 @@
             margin: 10px;
             border-radius: 8px;
 
+        }
+        iframe{
+            z-index: 2;
+            position: relative;
         }
 
         header {
@@ -36,7 +43,9 @@
        .sticky+.content {
             padding-top: 102px;
         }
-        
+        .space{
+            height: 5rem;
+        }
         h1,
         h2 {
             margin-top: 0;
@@ -53,9 +62,17 @@
     </header>
     <div class="container">
         <a href="#ref">view ref</a>
+        <a href="#time">view timetable</a>
         <div id="topicsList" class="topics-list"> </div>
         <div id="ref" class="reference-page">
+            <div class="space"></div>
             <iframe src="./files/ref.html" frameborder="0" width="100%" height="600"></iframe>
+        </div>
+
+        <div id="time">
+            <div class="space"></div>
+            <iframe src="./files/timetable.html" frameborder="0" width="100%" height="600"></iframe>
+
         </div>
     </div>
 

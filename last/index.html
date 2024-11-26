@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEET Preparation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.5;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            animation: changeBackground 15s infinite linear;
+        }
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        @keyframes changeBackground {
+            0% {
+                background-color: #111111;
+                /* initial background */
+            }
+
+            10% {
+                background-color: #333333;
+                /* step 1 - dark gray */
+            }
+
+            20% {
+                background-color: #555555;
+                /* step 2 - medium gray */
+            }
+
+            30% {
+                background-color: #777777;
+                /* step 3 - medium gray */
+            }
+
+            40% {
+                background-color: #999999;
+                /* step 4 - medium gray */
+            }
+
+            50% {
+                background-color: #a8a3a3;
+                /* step 5 - medium gray */
+            }
+
+            60% {
+                background-color: #999999;
+                /* step 6 - medium gray */
+            }
+
+            70% {
+                background-color: #777777;
+                /* step 7 - medium gray */
+            }
+
+            80% {
+                background-color: #555555;
+                /* step 8 - medium gray */
+            }
+
+            90% {
+                background-color: #333333;
+                /* step 9 - dark gray */
+            }
+
+            100% {
+                background-color: #111111;
+                /* final background */
+            }
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        @media (max-width: 768px) {
+            iframe {
+                height: 300px;
+            }
+        }
+
+
+        header {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1,
+        h2 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #ffffff;
+        }
+
+        .content {
+            padding: 20px;
+            min-height: calc(100vh - 180px);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .block {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            padding: 20px;
+            animation: fadeIn 0.5s ease-out;
+
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0.2;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .block h2 {
+            margin-top: 0;
+            color: #ffffff;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <link rel="shortcut icon" href="../icon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>most compressed syllubus</h1>
+        <h2>Chapter Completion for time less then 6 months</h2>
+    </header>
+    <div class="content">
+        <div class="grid">
+            <div class="block">
+                <h2>Biology</h2>
+                <a href="#bio">Go to study plan</a>
+            </div>
+            <div class="block">
+                <h2>Physics</h2>
+                <a href="#phy">Go to Physics</a>
+            </div>
+            <div class="block">
+                <h2>Chemistry</h2>
+                <a href="#chem">Go to Chemistry</a>
+            </div>
+            <div class="block">
+                <h2>Notes</h2>
+                <a href="#extra">Extra chapters</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="handler">
+        <div id="bio">
+            <iframe src="./files/bio.html" frameborder="0"></iframe>
+        </div>
+        <div id="phy">
+            <iframe src="./files/phy.html" frameborder="0"></iframe>
+        </div>
+        <div id="chem">
+            <iframe src="./files/chem.html" frameborder="0"></iframe>
+        </div>
+        <div id="extra">
+            <iframe src="./files/extra.html" frameborder="0"></iframe>
+        </div>
+
+
+    </div>
+    <footer>&copy; 2024-present Developer - Pratik Tiwari</footer>
+</body>
+
+</html>
