@@ -11,7 +11,7 @@
             line-height: 1.5;
             color: #ffffff;
             margin: 0;
-            padding: 0; 
+            padding: 0;
             background-color: black;
         }
 
@@ -21,16 +21,16 @@
             padding: 10px;
             text-align: center;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-          
+
         }
 
-        h1{
+        h1 {
             font-size: 1.5rem;
             margin: 0;
             margin-bottom: 5px;
             color: #ffffff;
         }
-        
+
         .content {
             padding: 20px;
             min-height: calc(100vh - 180px);
@@ -64,7 +64,28 @@
             text-decoration: underline;
         }
 
-       
+        .navbar {
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #000000;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        #home {
+            background-color: #1f1a1a;
+            color: black;
+        }
+
+        #home:hover {
+            background-color: #242323;
+            color: black;
+        }
     </style>
     <link rel="shortcut icon" href="../icon.svg" type="image/x-icon">
 </head>
@@ -72,23 +93,30 @@
 <body>
     <header>
         <h1>NEET Preparation - Notes Section</h1>
-    
+        <div class="navbar">
+            <a href="../index.html" id='home'>Home</a>
+            <a href="#bio">Biology</a>
+            <a href="#chem">Chemistry</a>
+            <!-- <a href="#phy">Physics</a> -->
+        </div>
     </header>
     <div class="content">
-        
+
+        <h1 id="bio">Biology</h1>
         <div class="grid">
             <!-- bio -->
             <div class="block">
                 <h2>Cell Cycle and Division </h2>
-               <a href="./note/bio/cell_cycle and division.html">Go</a>
+                <a href="./note/bio/cell_cycle and division.html">Go</a>
             </div>
             <div class="block">
                 <h2>Reproductive parts names </h2>
-                <p>A index of all neames of male and female gamate and gametophytes</p> <a href="./note/bio/reproductive parts.html">Go</a>
+                <p>A index of all neames of male and female gamate and gametophytes</p> <a
+                    href="./note/bio/reproductive parts.html">Go</a>
             </div>
             <div class="block">
                 <h2>Biological Classification</h2>
-                 <a href="./note/bio/classification .pdf">Go</a>
+                <a href="./note/bio/classification .pdf">Go</a>
             </div>
             <div class="block">
                 <h2>Locomotion and Movemoent</h2>
@@ -96,15 +124,16 @@
             </div>
         </div>
 
+        <h1 id="chem">Chemistry</h1>
         <div class="grid">
             <!-- chemistry -->
             <div class="block">
                 <h2>Redox rxn </h2>
-                <p>Redox Reaction Notes</p> <a href="./note/redox_rxn.pdf">Go</a>
+                <p>Redox Reaction Notes</p> <a href="./note/Chem/redox_rxn.pdf">Go</a>
             </div>
         </div>
     </div>
-   
+
 </body>
 
 </html>
